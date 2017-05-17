@@ -1,0 +1,8 @@
+1. Paste the files checksol.pyc and run.sh in the folder containing Simulate.java and query.txt
+2. You can execute run.sh by the following command on Terminal on Linux/Mac:
+	./run.sh
+3. You should have python installed on your system for this to work
+4. run.sh compiles all java files (javac *.java), runs Simulate.java (java Simulate > output.txt) and writes the output on stdout to
+ output.txt
+5. python checksol.pyc checks whether output.txt is a correct solution to query.txt. In case it is incorrect, it prints the first line 
+where the output is incorrect
